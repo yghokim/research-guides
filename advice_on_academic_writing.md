@@ -4,139 +4,139 @@
 
 Leader, HCI Group @ NAVER AI Lab
 
-**Target readers?** Interns and junior researchers at HCI group.
+**Target readers?** Interns and junior researchers in our HCI group.
 
-**Why was this guide written?** The internship is super intensive, and you are already an experienced academic writer. Since you’ve developed your own writing style and file management conventions, which may conflict with your mentor. To better synchronize the writing style and minimize mismatches among the written text by different authors, I provide this guide.
+**Why was this guide written?** The internship is super intensive, and you are already an experienced academic writer. You have developed your own writing style and file management conventions, which may conflict with those of your mentor. To better synchronize our writing styles and minimize mismatches across text written by different authors, I provide this guide.
 
 # General Writing Tips
 
 1. Avoid stating opinions as “We **think** A.” Instead, express your thoughts directly, or use more assertive words such as “insist” or “argue.”
 
-2. Avoid using adjectives like “**better**” and “**good**” without any clarification on the aspect. In most cases, you can avoid using these words by directly describing what aspect was good or better at doing what: 
+2. Avoid using adjectives like “**better**” and “**good**” without clarifying in which aspect. In most cases, you can avoid these words by directly describing which aspect was good or better, and at what: 
 
-   * **Don’t:** *System A was better than System B.*  
-     **Do:** *System A yielded faster completion times and higher accuracy than System B.*
+   * **Don’t:** System A was $\color{red}{\textsf{better}}$ than System B.  
+     **Do:** System A yielded $\color{red}{\textsf{faster completion times and higher accuracy}}$ than System B.
 
-3. Use **en dashes** (two hyphens \-- in LaTeX) properly when indicating a range. Many students often mistakenly use a hyphen where an en dash should come:
+3. Use **en dashes** (two hyphens \-- in LaTeX) properly when indicating a range. Students often mistakenly use a hyphen where an en dash belongs:
 
-   * **Don’t:** We recruited 13 participants (P1\-13).  
-     **Do:** We recruited 13 participants (P1–13).
+   * **Don’t:** We recruited 13 participants $\color{red}{\textsf{(P1-13)}}$.  
+     **Do:** We recruited 13 participants $\color{red}{\textsf{(P1–13)}}$.
 
-4. Use en dashes for compound adjectives consisting of two nouns. Researchers often mistakenly use a hyphen to connect two nouns:
+4. Use en dashes for compound adjectives consisting of two nouns. Researchers often mistakenly use a hyphen to connect the two:
 
-   * **Don’t:** Human\-computer interaction  
-     **Do:** Human–Computer Interaction
+   * **Don’t:** $\color{red}{\textsf{Human-computer}}$ interaction  
+     **Do:** $\color{red}{\textsf{Human–Computer}}$ Interaction
 
-   * **Don’t:** Parent\-child communication
+   * **Don’t:** $\color{red}{\textsf{Parent-child}}$ communication
 
-   * **Do:** Parent–child communication
+   * **Do:** $\color{red}{\textsf{Parent–child}}$ communication
 
-5. For numbered lists, **always use Arabic numbers with closed parentheses from both sides**: For instance, use ‘**(1)**’ instead of ‘1\)’ or ‘(i).’ Numbered lists with unclosed parentheses look incomplete.
+5. For numbered lists, **always use Arabic numerals enclosed in parentheses on both sides**. For instance, use ‘$\color{red}{\textsf{(1)}}$’ instead of ‘1\)’ or ‘(i).’ Numbered lists with unclosed parentheses look incomplete.
 
-6. Provide **objective** information whenever possible, especially when reporting **Results**. Provide **numbers** if you have ones. Minimize the use of “some” and “many,” especially when you report the number of participants who mentioned something in the interviews.
+6. Provide **objective** information whenever possible, especially when reporting **Results**. Provide **numbers** if you have them. Minimize the use of “some” and “many,” especially when you report the number of participants who mentioned something in the interviews.
 
-   * **Don’t**: Some participants reported that …  
-     **Do:** Five participants (P1, P4, P7, P18, P24) reported that…
+   * **Don’t**: $\color{red}{\textsf{Some}}$ participants reported that …  
+     **Do:** $\color{red}{\textsf{Five participants (P1, P4, P7, P18, P24)}}$ reported that…
 
-   * **Don’t**: Most participants reported that …  
-     **Do:** 17 out of 20 (85%) participants reported that…
+   * **Don’t**: $\color{red}{\textsf{Most}}$ participants reported that …  
+     **Do:** $\color{red}{\textsf{17 out of 20 (85\%)}}$ participants reported that…
 
-7. Distinguish **citations as a backup for a claim** and **citations as an example.** 
+7. Distinguish between **citations as a backup for a claim** and **citations as an example**.
 
-   * **Citation as a backup**: You are **citing a claim** in the work to back up your claims or specific concepts in your sentence. Put them directly behind the part you want to back up, without parentheses.
+   * **Citation as a backup**: You are **citing a claim** made in the cited work to back up your own claim or a specific concept in your sentence. Put the citation directly after the part you want to back up, without parentheses.
 
-     * Similarly, parents play an essential role in supporting how children identify and express their emotions \[10, 37\].
+     * Similarly, parents play an essential role in supporting how children identify and express their emotions $\color{red}{\textsf{[10, 37]}}$.
 
-     * Studies demonstrated that when chatbots remember information across multiple sessions, such as users’ names or preferences, people perceive them as empathetic \[29, 52, 63\] and conscientious \[8, 17\].
+     * Studies demonstrated that when chatbots remember information across multiple sessions, such as users’ names or preferences, people perceive them as empathetic $\color{red}{\textsf{[29, 52, 63]}}$ and conscientious $\color{red}{\textsf{[8, 17]}}$.
 
-   * **Citation as an example**: You are citing **the work itself as an example** of your claim. Wrap them with parentheses and put “*e.g.*”
+   * **Citation as an example**: You are citing **the work itself as an example** of your claim. Wrap the citations in parentheses and prefix them with “*e.g.*”
 
-     * The recent advance of pre-trained LLMs (e.g., GPT \[8, 61\], PaLM \[15\], LLaMA \[77\], LaMDA \[76\], HyperCLOVA \[46\]) has presented new opportunities for…
+     * The recent advance of pre-trained LLMs $\color{red}{\textsf{(e.g.,}}$ GPT \[8, 61\], PaLM \[15\], LLaMA \[77\], LaMDA \[76\], HyperCLOVA \[46\]$\color{red}{\textsf{)}}$ has presented new opportunities for…
 
-     * One common approach is to include summarized information of the conversation history instead of a raw knowledge base (e.g., \[2, 41, 75\]). 
+     * One common approach is to include summarized information of the conversation history instead of a raw knowledge base $\color{red}{\textsf{(e.g., [2, 41, 75])}}$. 
 
-8. Clearly distinguish **present** and **past** tenses in the main text.
+8. Clearly distinguish between **present** and **past** tenses in the main text.
 
    * Present tense: When you report **what you do in this paper**.
 
-     * To this aim, we propose …  
-     * In this work, we explore …  
-     * In this section, we describe …
+     * To this aim, we $\color{red}{\textsf{propose}}$ …  
+     * In this work, we $\color{red}{\textsf{explore}}$ …  
+     * In this section, we $\color{red}{\textsf{describe}}$ …
 
-   * Past tense: When reporting **what you or participants have done as part of the method**.
+   * Past tense: When you report **what you or your participants did as part of the method**.
 
-     * We designed and developed MindfulDiary, …  
-     * We recruited 18 participants from …  
-     * We conducted an exploratory user study …  
-     * From the study, we observed that …
+     * We $\color{red}{\textsf{designed and developed}}$ MindfulDiary, …  
+     * We $\color{red}{\textsf{recruited}}$ 18 participants from …  
+     * We $\color{red}{\textsf{conducted}}$ an exploratory user study …  
+     * From the study, we $\color{red}{\textsf{observed}}$ that …
 
-9. ‘Related work’, ‘literature’, and ‘research’ are collective nouns. They are conventionally used in a singular form in most cases. Grammatically ‘related works’ is fine but we seldom use that form.
+9. ‘Related work’, ‘literature’, and ‘research’ are uncountable (mass) nouns. In most cases, they are conventionally used in the singular form. Grammatically, ‘related works’ is fine, but we seldom use that form.
 
-10. When you describe the actions of researchers, use **verbs appropriately**. Choose verbs that accurately reflect the scope, depth, and intent of the research activity and avoid using them interchangeably.
+10. When you describe the actions of researchers, use **verbs appropriately**. Choose verbs that accurately reflect the scope, depth, and intent of the research activity, and avoid using them interchangeably.
 
     * **Explore**: When the study is open-ended and aims to gain an initial understanding.
 
-      * *We **explore** the feasibility and challenges with older adults in collecting activity labels… \[MyMove, 2023\]*
+      * *We $\color{red}{\textsf{explore}}$ the feasibility and challenges with older adults in collecting activity labels… \[MyMove, 2023\]*
 
-    * **Examine**: When the study is guided under a defined focus or clear research questions or hypotheses.
+    * **Examine**: When the study is guided by a defined focus, clear research questions, or hypotheses.
 
-      * *Quant: To **examine** the effect of framing on individuals’ productivity, we compared two versions of TimeAware. \[TimeAware, 2016\]*
+      * *Quant: To $\color{red}{\textsf{examine}}$ the effect of framing on individuals’ productivity, we compared two versions of TimeAware. \[TimeAware, 2016\]*
 
-      * *Qual: Through an exploratory study with 19 participants, we **examine** how participants explore and reflect on personal challenges using ExploreSelf. \[ExploreSelf, 2025\]*
+      * *Qual: Through an exploratory study with 19 participants, we $\color{red}{\textsf{examine}}$ how participants explore and reflect on personal challenges using ExploreSelf. \[ExploreSelf, 2025\]*
 
     * **Investigate**: When the study seeks to uncover underlying mechanisms or causes that explain why a specific phenomenon occurs. But in practice, many HCI papers use this term interchangeably with ‘explore’ or ‘examine.’ 
 
-      *  *We **investigate** the factors that contributed to participants’ disengagement over time.*
+      *  *We $\color{red}{\textsf{investigate}}$ the factors that contributed to participants’ disengagement over time.*
 
     * **Assess**: When you are evaluating something, usually driven by quantitative metrics or measurements.
 
-      * *To **assess** the difference among the experimental conditions, we conducted Kruskal-Wallis tests over the four rating questions.* \[GPT-Chatbot, 2024\]
+      * *To $\color{red}{\textsf{assess}}$ the difference among the experimental conditions, we conducted Kruskal-Wallis tests over the four rating questions.* \[GPT-Chatbot, 2024\]
 
-      * *A set of call logs with 100 users (721 sessions) was classified using Positive-Neutral-Negative labels, designed to **assess** user satisfaction with conversational agents.* \[CareCall Long-term Memory, 2024\]
+      * *A set of call logs with 100 users (721 sessions) was classified using Positive-Neutral-Negative labels, designed to $\color{red}{\textsf{assess}}$ user satisfaction with conversational agents.* \[CareCall Long-term Memory, 2024\]
 
 11. Be aware of the **level of certainty** when you report the **interpretation** of the findings in an exploratory manner. Choose ***subjects*** and ***verbs*** appropriately:
 
     * **Low certainty**: When you strongly imply that the statement is mostly based on your interpretation or suspicion, with little or no data to back it up.
 
-      * We **suspect** that…
+      * We $\color{red}{\textsf{suspect}}$ that…
 
-      * Participants **appeared to**… \=\> Usually when you interpret a pattern from the qualitative interviews.
+      * Participants $\color{red}{\textsf{appeared to}}$… \=\> Usually when you interpret a pattern from the qualitative interviews.
 
-      * These findings **may reflect**…
+      * These findings $\color{red}{\textsf{may reflect}}$…
 
-    * **Moderate certainty:** When the statement is still your interpretation but you have some data points to back it up.
+    * **Moderate certainty**: When the statement is still your interpretation, but you have some data points to back it up.
 
-      * The results **suggest** that… \=\> You can generally use this
+      * The results $\color{red}{\textsf{suggest}}$ that… \=\> You can generally use this
 
-      * The results **indicate** that… \=\> When the interpretation is more obvious than ‘suggest’
+      * The results $\color{red}{\textsf{indicate}}$ that… \=\> When the interpretation is more obvious than ‘suggest’
 
-    * Caution\! You must use the following expressions only when justified with numerical outcomes or very prevalent patterns of repeated observations:
+    * **High certainty**: Caution\! Use the following expressions only when they are justified by numerical outcomes or by very prevalent patterns of repeated observations:
 
-      * *The results **show** that participants’ self-efficacy increased significantly after the intervention.*
+      * *The results $\color{red}{\textsf{show}}$ that participants’ self-efficacy increased significantly after the intervention.*
 
-      * The results **imply** that…
+      * The results $\color{red}{\textsf{imply}}$ that…
 
-      * The findings **demonstrate** that…
+      * The findings $\color{red}{\textsf{demonstrate}}$ that…
 
 # Ethics of Using LLMs in Academic Writing
 
-Using LLM-based assistants like ChatGPT and Gemini can significantly save your time and potential grammatical mistakes.  
+Using LLM-based assistants like ChatGPT and Gemini can save you significant time and help you avoid grammatical mistakes.  
 
 # LaTeX Convention
 
 ### **Overleaf Project Management**
 
-1. **NEVER EVER put the entire manuscript in a single file.** Create a directory named “sections” and put each section in a separate file (e.g., “00-abstract.tex,” “01-introduction.tex,” …), then load them in your main.tex file (e.g., “\\input{sections/01-introduction}”). By splitting section files, you can easily track who is looking at which section, on the history panel of Overleaf.
+1. **NEVER EVER put the entire manuscript in a single file.** Create a directory named “sections” and put each section in a separate file (e.g., “00-abstract.tex,” “01-introduction.tex,” …), then load them from your main.tex file (e.g., “\\input{sections/01-introduction}”). By splitting the manuscript into section files, you can easily track who is working on which section in Overleaf’s history panel.
 
-2. **Explicitly invite the main co-authors to the project by adding their account to the project, not via link sharing.** You cannot individually turn on track changes for the users only entered from the link.
+2. **Explicitly invite the main co-authors to the project by adding their accounts, not via link sharing.** You cannot turn on track changes individually for users who joined only through the link.
 
-3. **Use the ‘anonymous’ flag for \\documentclass to anonymize the document.** You don’t have to manually set the author names as those like “Anonymous authors.”
+3. **Use the ‘anonymous’ flag for \\documentclass to anonymize the document.** You do not have to manually replace the author names with placeholders like “Anonymous Authors.”
 
-4. When I revise your Overleaf project, I will always turn on **Track Changes**. Please review the edited text thoroughly and **accept/decline the highlight as an indication that you’ve checked it.**
+4. When I revise your Overleaf project, I will always turn on **Track Changes**. Please review the edited text thoroughly and **accept/decline each highlight as an indication that you’ve checked it.**
 
 ### **LaTeX Guides**
 
-5. Always use **\\autoref{}**, not **\\ref{}**. \\autoref puts a prefix name (e.g., Table, Section, Figure) together. You can use the following code to refer to subsections and subsubsections as “Section.”
+5. Always use **\\autoref{}**, not **\\ref{}**. \\autoref automatically prepends the reference type (e.g., Table, Section, Figure). You can use the following code to refer to subsections and subsubsections as “Section.”
 
    \\def\\sectionautorefname{Section}  
    \\def\\subsectionautorefname{Section}  
@@ -144,15 +144,15 @@ Using LLM-based assistants like ChatGPT and Gemini can significantly save your t
 
    
 
-6. Italicize “*et al.*”, “*e.g.*”, “*i.e.*”, and “*c.f.*” I recommend using these macros:
+6. Italicize “*et al.*,” “*e.g.*,” “*i.e.*,” and “*cf.*” I recommend using these macros:
 
    \\newcommand{\\eg}{\\textit{e.g.}}  
    \\newcommand{\\ie}{\\textit{i.e.}}  
-   \\newcommand{\\cf}{\\textit{c.f.}}  
+   \\newcommand{\\cf}{\\textit{cf.}}  
    \\newcommand{\\etal}{\\textit{et al.}}  
    % Use it like ..(\\eg{}, \\cite{kim2021data@hand}).. 
 
-7. Be familiar with defining macros, especially when you are styling the text. **When you highlight changes for revision, don’t put \\textcolor{red}{} everywhere.** Instead, define a macro and use it so that you can remove the highlight easily afterward.
+7. Become familiar with defining macros, especially when you are styling the text. **When you highlight changes for revision, don’t put \\textcolor{red}{} everywhere.** Instead, define a macro and use it so that you can easily remove the highlights afterward.
 
    % Define a macro  
    \\newcommand{\\revised}\[1\]{\\textcolor{red}{\#1}}  
@@ -163,7 +163,7 @@ Using LLM-based assistants like ChatGPT and Gemini can significantly save your t
 
    \\newcommand{\\revised}\[1\]{\#1}
 
-8. Avoid overusing subsubsections for better readability. If you listing a series of sections, each consisting of only a single paragraph, a plain bolded header may suffice.
+8. Avoid overusing subsubsections for better readability. If you list a series of sections, each consisting of only a single paragraph, a plain bolded header may suffice.
 
    % Define a macro  
    \\newcommand{\\ipstart}\[1\]{  
@@ -172,20 +172,20 @@ Using LLM-based assistants like ChatGPT and Gemini can significantly save your t
    		}
 
    % Writing a mini-paragraph section  
-   {{Briefing}  
+   \\ipstart{Briefing}  
    We first explained the study overview…
 
    Example:  
    ![][image1]
 
-9. If you have a figure with a single image containing sub-figure labels inside—i.e., an image contains labels (a), (b), and (c), use a **subcaption** package and \\**phantomcaption{}** to define subfigures without individual \\includegraphic{}s.
+9. If you have a figure with a single image that contains sub-figure labels inside—that is, an image with labels (a), (b), and (c)—use the **subcaption** package and **\\phantomcaption** to define subfigures without individual \\includegraphics{} commands.
 
    % Add package  
    \\usepackage{subcaption}
 
    % Define a macro for convenience  
    \\newcommand{\\labelphantom}\[1\]{  
-   	\\parbox{0pt}{\\phantomsubcaption\\label{\#1}}  
+   	\\parbox{0pt}{\\phantomcaption\\label{\#1}}  
    }
 
      
@@ -208,17 +208,17 @@ Using LLM-based assistants like ChatGPT and Gemini can significantly save your t
    \\autoref{fig:result:figure:sub2} % “Figure 1b”  
    \\autoref{fig:result:figure:sub3} % “Figure 1c” 
 
-10. Don’t put space before a footnote.
+10. Don’t put a space before a footnote.
 
-    Do: Emotion **communication\\footnote{...}**  
-    Don’t: Emotion communication\~\\footnote{...}  
-    Don’t: Emotion communication \\footnote{...}
+    Do: Emotion **communication\\footnote{...}** $\color{red}{\textsf{(no space, no tilde)}}$  
+    Don’t: Emotion communication\~\\footnote{...} $\color{red}{\textsf{(tilde)}}$  
+    Don’t: Emotion communication \\footnote{...} $\color{red}{\textsf{(space)}}$
 
-11. Put a tilde(\~) before a citation to avoid line-breaking.
+11. Put a tilde (\~) before a citation to prevent a line break.
 
-    Do: Emotion **communication\~\\cite{...}**  
-    Don’t: Emotion communication\\cite{...}  
-    Don’t: Emotion communication \\cite{...}
+    Do: Emotion **communication\~\\cite{...}** $\color{red}{\textsf{(tilde, no space)}}$  
+    Don’t: Emotion communication\\cite{...} $\color{red}{\textsf{(no tilde)}}$  
+    Don’t: Emotion communication \\cite{...} $\color{red}{\textsf{(space)}}$
 
 # Formulating Research Questions
 
@@ -228,11 +228,11 @@ Research questions should be…
 
 1. **Novel**: Your questions shouldn’t have been answered elsewhere.
 
-2. **Feasible:**  You should be able to answer your questions. Consider the time budget, your expertise, and any other constraints for executing the method.
+2. **Feasible**: You should be able to answer your questions. Consider the time budget, your expertise, and any other constraints on executing the method.
 
-3. **Challenging:** You should be tackling sufficiently challenging questions. By answering the questions, you should provide a significant contribution to HCI.
+3. **Challenging**: You should be tackling sufficiently challenging questions. By answering them, you should make a significant contribution to HCI.
 
-4. **Specific:** Be candid about the level of detail you can answer. Neither overclaim (i.e., your questions are phrased too general) nor underclaim (i.e., your questions only cover partial details of what you actually contribute).
+4. **Specific**: Be candid about the level of detail you can address. Avoid both overclaiming (i.e., phrasing your questions too generally) and underclaiming (i.e., phrasing them so that they cover only part of what you actually contribute).
 
 ## RQs vs. Research Goals/Aims
 
@@ -240,83 +240,83 @@ Research questions should be…
 
 ## Synthesizing Related Work Sections
 
-1. **Rule of thumb:** The purpose of the related work sections is to prepare the readers to catch the gist of your method, evaluation, and discussion, not to demonstrate your effort in reading a bunch of related papers.
+1. **Rule of thumb:** The purpose of a related work section is to prepare readers to grasp the gist of your method, evaluation, and discussion, not to demonstrate your effort in reading a bunch of related papers.
 
-2. **Try to be concise.** For typical system papers, around one page in the double-column format would suffice. 
+2. **Try to be concise.** For typical system papers, around one page in double-column format would suffice. 
 
-3. **Be specific as much as possible**. You don’t have to consider the audience very far from the domain of your paper. If your paper is about Personal Informatics, you don’t have to explain what is Personal Informatics. Just directly start with a very relevant sub-domain or concept.
+3. **Be as specific as possible**. You don’t have to consider audiences far outside the domain of your paper. If your paper is about Personal Informatics, you don’t have to explain what Personal Informatics is. Start directly with a closely relevant sub-domain or concept.
 
 4. Start with prior work in the broadest scope and end with the most relevant one. If you are writing a system paper, a typical organization would be (1) the domain challenges and (2) the core technology \+ domain examples that employed the technology.
 
 ## Discussing Limitations and Future Work
 
-1. **Rule of thumb: Think carefully if you can avoid explicitly writing a limitation section. Avoid ending your paper with a limitation section at the end of the Discussion** (although we often fail to do so as the reviewers request)**.**
+1. **Rule of thumb: Think carefully about whether you can avoid explicitly writing a limitation section. Avoid placing a limitation section at the end of the Discussion** (although we often fail to do so when reviewers request it)**.**
 
-   * If all limitations are about the method (e.g., recruitment biases), put the Limitation section as the last subsection of the Method.
+   * If all limitations are about the method (e.g., recruitment biases), place the Limitations section as the last subsection of the Method.
 
    * If you can, frame the limitations of your system/investigation as a call for future work in subsections of the Discussion section, instead of having an explicit “Limitation and Future Work” section.
 
      * **A paper that doesn’t have any limitations section:** Young-Ho Kim, Bongshin Lee, Arjun Srinivasan, and Eun Kyoung Choe. 2021\. Data@Hand: Fostering Visual Exploration of Personal Data on Smartphones Leveraging Speech and Touch Interaction. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems (CHI '21). Association for Computing Machinery, New York, NY, USA, Article 462, 1–17. [https://doi.org/10.1145/3411764.3445421](https://doi.org/10.1145/3411764.3445421)
 
-2. **Study limitations are not flaws**. If your study contains flaws, such as unfair condition design in a comparative study, we must re-run the study. **Study limitations typically arise from methodological compromises you had to involve due to external constraints**, such as budget, resources, or potential risks. These compromises could include noise in the dataset, recruitment bias (location, age, or background), and omitted system features. When reporting and discussing such limitations, focus on (1) how the results might differ under ideal situations, (2) why the compromises do not critically undermine contributions, and (3) call for further investigation only when it’s interesting.
+2. **Study limitations are not flaws**. If your study contains flaws, such as an unfair condition design in a comparative study, we must re-run the study. **Study limitations typically arise from methodological compromises you had to make due to external constraints**, such as budget, resources, or potential risks. These compromises could include noise in the dataset, recruitment bias (location, age, or background), and omitted system features. When reporting and discussing such limitations, focus on (1) how the results might differ under ideal conditions and (2) why the compromises do not critically undermine your contributions. Call for further investigation only when it is interesting.
 
-3. Every work has a limitation. You **don’t have to be defensive** when reporting them.
+3. Every work has limitations. You **don’t have to be defensive** when reporting them.
 
 ## What Should Come in a Discussion Section
 
-1. Rule of thumb 1: **Don’t introduce new information in the Discussion section**; all discussed information should be cited based on the Results section.
+1. Rule of thumb 1: **Don’t introduce new information in the Discussion section**; everything you discuss should be grounded in the Results section.
 
-2. Rule of thumb 2: **Only discuss insights or predictions that directly emerged from the current study;** don’t discuss that could be told by anyone who did not conduct the study.
+2. Rule of thumb 2: **Only discuss insights or predictions that directly emerged from the current study;** don’t discuss anything that could be said by someone who did not conduct the study.
 
 3. The first subsections should cover how your study answered the RQs.
 
 # Checklist for Finalizing a Draft
 
-Congratulations that you’ve got a submittable version of the paper. If you have time to give the final touch to your draft, this is the right time to further enhance the impression of the completeness of the work. Here are some steps that you should go through until you prepare for a camera-ready at the latest.
+Congratulations on getting a submittable version of the paper. If you have time to put the final touches on your draft, this is the right moment to further strengthen the impression that the work is complete. Here are some steps you should go through, at the latest when you prepare the camera-ready version.
 
 ### **Entire Manuscript**
 
-1. Fix typos, especially in the Abstract and Introduction. Typos on the first page critically affect the impressions of the reviewers.
+1. Fix typos, especially in the Abstract and Introduction. Typos on the first page critically affect reviewers’ impressions.
 
-2. Check consistency for conventions for words, phrases, and terms. This happens when multiple authors have edited the text, but you didn’t have a chance to review them thoroughly. Here are some common phrases that different authors may use differently. The bold text is my preferred one:
+2. Check the consistency of conventions for words, phrases, and terms. Inconsistencies arise when multiple authors have edited the text and you have not had a chance to review it thoroughly. Here are some common phrases that different authors may use differently. The red text indicates my preference:
 
-   1. ‘users’ vs ‘**people**’
+   1. ‘users’ vs ‘$\color{red}{\textsf{people}}$’
 
-   2. ‘**et al.**’ vs ‘and colleagues’
+   2. ‘$\color{red}{\textsf{et al.}}$’ vs ‘and colleagues’
 
-   3. **American English** vs British English (and sometimes vs Konglish…)
+   3. $\color{red}{\textsf{American English}}$ vs British English (and sometimes vs Konglish…)
 
-   4. Present tense vs **past tense** for stating what we’ve done (But NLP venues conventionally use the present tense)
+   4. Present tense vs $\color{red}{\textsf{past tense}}$ for stating what we’ve done (But NLP venues conventionally use the present tense)
 
-3. Check the consistency of wordings between the **figure/table captions** and the **main text**.
+3. Check the consistency of wording between the **figure/table captions** and the **main text**.
 
 4. Remove dangling words/fragments in all paragraphs. For example:
 
    ![][image2]
 
-   The word ‘events’ is solely placed on the last line of the paragraph. Revise the paragraph partially to add more words or reduce the length of the text so that more than two words come on the last line.
+   The word ‘events’ sits alone on the last line of the paragraph. Revise the paragraph to add words or shorten the text so that the last line contains more than two words.
 
 ### **Section Headers**
 
-5. Check the consistency of capitalization over subsection headers. Many people especially make mistakes for **subsubsection** headers.
+5. Check the consistency of capitalization across subsection headers. People especially make mistakes in **subsubsection** headers.
 
 ### **Tables**
 
-6. Check the consistency of **capitalization**, especially for columns denoting some category.
+6. Check the consistency of **capitalization**, especially in columns denoting a category.
 
-7. Check the consistency of **punctuation**, especially for columns denoting descriptions. Decide whether to put periods at the end of descriptions or not consistently. 
+7. Check the consistency of **punctuation**, especially in columns denoting descriptions. Decide consistently whether to end descriptions with a period. 
 
 ### **Reference**
 
 8. Be consistent with the capitalization of paper titles. **I recommend capitalizing all words**, regardless of how the paper was published.
 
-9. Be consistent with the convention for **the authors’ middle names**, whether to put a period or not—e.g., Daniel A Epstein vs Daniel A**.** Epstein
+9. Be consistent with the convention for **the authors’ middle names**—that is, whether to include a period: e.g., Daniel $\color{red}{\textsf{A}}$ Epstein vs. Daniel $\color{red}{\textsf{A.}}$ Epstein.
 
-10. For Arxiv papers, check if there is an accepted version of them, especially for the papers in ML and AI venues. For camera-ready, check if any of the Arxiv papers have been accepted to some venues.
+10. For arXiv papers, check whether an accepted version exists, especially for papers in ML and AI venues. For the camera-ready version, check again whether any of the arXiv papers have since been accepted at a venue.
 
 ### **Acknowledgement**
 
-11. Don’t forget to acknowledge all the people who contributed to the paper. Typically, funders (research grant, fellowship, etc.), people who you seek advice from, people who gave constructive criticism (including reviewers or not), people who need copyright attribution, etc. Double-check with the corresponding author, too. 
+11. Don’t forget to acknowledge all the people who contributed to the paper. These typically include funders (research grants, fellowships, etc.), people you sought advice from, people who gave constructive criticism (whether reviewers or not), and people who require copyright attribution. Double-check with the corresponding author, too. 
 
 # 
 
@@ -330,7 +330,7 @@ Ask Young-Ho if you want to read one.
 
    * [https://www.amazon.com/BUGS-Writing-Revised-Guide-Debugging/dp/020137921X](https://www.amazon.com/BUGS-Writing-Revised-Guide-Debugging/dp/020137921X)
 
-2. **Style: Lessons in Clarity and Grace (Willams, Bizup)**
+2. **Style: Lessons in Clarity and Grace (Williams, Bizup)**
 
    * [https://www.amazon.com/Style-Lessons-Clarity-Grace-12th/dp/0134080416/ref=sr\_1\_1?crid=3EL2Z5I2PHH1I\&dib=eyJ2IjoiMSJ9.0QR5cWqQ\_fvRa-CwIDU5D5FjRIDftm0uiu3FaQPEetlCH5hvVPEF\_8qn5IndC9bJ3pKa2NYHy9bKy4GbIEHf4ZGOBwcQ9Os3JCiDSiUQH4sFngnIStKlh7PTEXph0EnsMDC5xhUlJO\_772S3eIbKmj5AUNVfrd1k5PVRLoELTEnlB8fz3SayeZIDToQtL1ehf9T01HI8un8m2VK57jVK80VYKuQnVHA1yQ4zir2oK9g.d0TWi4W6yBm7qM4XS5Gfcl0cwWP\_NvQwWAtGSwiwTi0\&dib\_tag=se\&keywords=Style%3A+Lessons+in+Clarity+and+Grace\&qid=1708921992\&s=books\&sprefix=style+lessons+in+clarity+and+grace+%2Cstripbooks%2C255\&sr=1-1](https://www.amazon.com/Style-Lessons-Clarity-Grace-12th/dp/0134080416/ref=sr_1_1?crid=3EL2Z5I2PHH1I&dib=eyJ2IjoiMSJ9.0QR5cWqQ_fvRa-CwIDU5D5FjRIDftm0uiu3FaQPEetlCH5hvVPEF_8qn5IndC9bJ3pKa2NYHy9bKy4GbIEHf4ZGOBwcQ9Os3JCiDSiUQH4sFngnIStKlh7PTEXph0EnsMDC5xhUlJO_772S3eIbKmj5AUNVfrd1k5PVRLoELTEnlB8fz3SayeZIDToQtL1ehf9T01HI8un8m2VK57jVK80VYKuQnVHA1yQ4zir2oK9g.d0TWi4W6yBm7qM4XS5Gfcl0cwWP_NvQwWAtGSwiwTi0&dib_tag=se&keywords=Style%3A+Lessons+in+Clarity+and+Grace&qid=1708921992&s=books&sprefix=style+lessons+in+clarity+and+grace+%2Cstripbooks%2C255&sr=1-1)
 
@@ -340,7 +340,7 @@ Ask Young-Ho if you want to read one.
 
 ## Tips by HCI Researchers
 
-1. How To Write A Literature Review (Saul Greenburg) [https://pages.cpsc.ucalgary.ca/\~saul/wiki/pmwiki.php/Chapter1/HowToWriteALiteratureReview](https://pages.cpsc.ucalgary.ca/~saul/wiki/pmwiki.php/Chapter1/HowToWriteALiteratureReview)  
+1. How To Write A Literature Review (Saul Greenberg) [https://pages.cpsc.ucalgary.ca/\~saul/wiki/pmwiki.php/Chapter1/HowToWriteALiteratureReview](https://pages.cpsc.ucalgary.ca/~saul/wiki/pmwiki.php/Chapter1/HowToWriteALiteratureReview)  
 2. How to write better discussions for your HCI study (Daniel Buschek) [https://dbuschek.medium.com/how-to-write-better-discussions-for-your-hci-study-be851092f351](https://dbuschek.medium.com/how-to-write-better-discussions-for-your-hci-study-be851092f351)  
 3. Prof. Tony Tang’s Resources (Many) [https://hcitang.github.io/resources/](https://hcitang.github.io/resources/)
 
