@@ -114,13 +114,47 @@ Leader, HCI Group @ NAVER AI Lab
 
       * *The results $\color{red}{\textsf{show}}$ that participants’ self-efficacy increased significantly after the intervention.*
 
-      * The results $\color{red}{\textsf{imply}}$ that…
+      * The results $\color{red}{\textsf{imply}}$ that… \=\> Stronger than it looks; use it only when the logical connection between the evidence and the conclusion is genuinely tight.
 
       * The findings $\color{red}{\textsf{demonstrate}}$ that…
 
-# Ethics of Using LLMs in Academic Writing
+13. **Don’t use “say” to attribute what participants or prior authors stated.** It reads as colloquial. Use *remark*, *note*, *state*, *mention*, *stress*, *emphasize*, or *describe* instead, choosing the one whose force matches the strength of the statement, and don’t repeat the same verb across consecutive quotes.
 
-Using LLM-based assistants like ChatGPT and Gemini can save you significant time and help you avoid grammatical mistakes.  
+    * **Don’t:** P7 $\color{red}{\textsf{said}}$ “I stopped checking it after a week.”  
+      **Do:** P7 $\color{red}{\textsf{remarked,}}$ “I stopped checking it after a week.”
+
+14. **Minimize be-verbs** and recast those sentences around a precise action verb. Plain “A is B” sentences read as flat to English readers and make the prose look unpolished.
+
+    * **Don’t:** The main reason for the disengagement $\color{red}{\textsf{was}}$ the lack of feedback.  
+      **Do:** The lack of feedback $\color{red}{\textsf{drove}}$ the disengagement.
+
+15. **When a sentence opens with “this” pointing back at the previous sentence, ask whether “this + noun” would say it better.** A bare “this” leaves readers to reconstruct the referent themselves, and after a long or quote-heavy sentence they often reconstruct the wrong one. Naming the referent costs one word, and the noun you choose usually does interpretive work at the same time — it tells readers what *kind* of thing the previous sentence established.
+
+    * *$\color{red}{\textsf{This growing clarity}}$ allowed P13 to “confidently decide when to explore a theme more deeply and when to move on to a new one”…* \[ExploreSelf, CHI 2025\]  
+    * *$\color{red}{\textsf{This meticulous process}}$ highlights the challenge of aligning signs with the music, a task that demands significant time and effort.* \[ELMI, CHI 2025\]  
+    * *$\color{red}{\textsf{This gap}}$ is consequential because the unique characteristics of autistic adolescents pose barriers to practice journaling themselves…* \[Autiverse, CHI 2026\]  
+    * *$\color{red}{\textsf{This procedure}}$ was implemented to ensure active monitoring and communication.* \[MindfulDiary, CHI 2024\]
+
+16. **Tone down absolute and extreme words.** Strong words like *imperfect*, *useless*, and *blind* make the message look aggressive rather than strong. To make a point forcefully, unpack the precise intent in softer wording instead of reaching for the harsh term.
+
+    * **Don’t:** The existing approach is $\color{red}{\textsf{useless}}$ for this population.  
+      **Do:** The existing approach $\color{red}{\textsf{offers little support}}$ for this population.
+
+17. **Check whether a paragraph’s wrap-up sentence is redundant with what comes before it.** Closing every paragraph with $\color{red}{\textsf{Taken together}}$…, $\color{red}{\textsf{Together}}$…, or $\color{red}{\textsf{This suggests}}$... leaves the point stated twice — once at the top of the paragraph and again at the bottom. Put the point in one place. A summarizing sentence at the end of a **section/subsection** is fine.
+
+18. Call a scale a **Likert scale** only when it measures the *degree of agreement* (*Strongly agree*–*Strongly disagree*). For a frequency or any other non-agreement scale, say **rating scale**, or simply name the **categories** the participant chose among.
+
+    * **Don’t:** We measured frequency of use on a five-point $\color{red}{\textsf{Likert scale}}$.  
+      **Do:** We measured frequency of use on a five-point $\color{red}{\textsf{rating scale}}$.  
+      **Do:** Participants chose among $\color{red}{\textsf{five frequency categories}}$, from *Never* to *Every day*.
+
+19. **Try to make each findings section header state the finding itself rather than the topic it covers.** A header that conveys ‘which aspect of what’ — the message the data support — carries more than a bare topic label or a UI feature name. The payoff is cumulative: when every header states a message, a reader who skims only the headers still follows the key messages of your findings, and that is how many reviewers first read a paper.
+
+    * **Don’t:** $\color{red}{\textsf{Use of the Reflection Panel}}$  
+      **Do:** $\color{red}{\textsf{Reflection surfaced overlooked patterns}}$
+
+20. **Avoid orphaned figures and tables.** Every figure and every table must be referred to at least once in the main text; a float nobody cites is orphaned.
+
 
 # LaTeX Convention
 
@@ -238,6 +272,33 @@ Research questions should be…
 
 # Advice on Writing Paper Contents
 
+## Writing the Title
+
+1. **Calibrate the ambition of the title to the evidence the paper can show.** A title keyword is what reviewers fixate on. If the title promises an outcome you did not measure, you will be judged on exactly that. Pin down the scope of what you claim to promote in a “Promoting XXX through …” title before fixing it, because that XXX defines what you must evaluate. Conversely, when the results came out strongly significant, let the title be correspondingly ambitious.
+
+    *MyMove: $\color{red}{\textsf{Facilitating}}$ Older Adults to Collect In-Situ Activity Labels on a Smartwatch with Speech* \[CHI 2022\] commits you to showing that the labeling task got easier, while *TimeAware: Leveraging Framing Effects to $\color{red}{\textsf{Enhance}}$ Personal Productivity* \[CHI 2016\] commits you to showing that productivity actually improved. Pick the verb whose bar your study clears.
+
+2. **Choose the leading verb to match the kind of contribution you are claiming.** “$\color{red}{\textsf{Supporting}}$ X” puts the weight on the artifact, while “$\color{red}{\textsf{Understanding How}}$ …” claims the empirical contribution — pick the one the paper actually delivers. Be aware that “Supporting X” is also generic: beyond naming the target user it carries almost no information, so it is rarely the strongest frame. Check number agreement across the title’s nouns as well: if *models* is plural, *assistants* should be too.
+
+    * *ELMI: Interactive and Intelligent Sign Language Translation of Lyrics for Song Signing* \[CHI 2025\] leads with the artifact.  
+    * *$\color{red}{\textsf{Understanding}}$ the Benefits and Challenges of Deploying Conversational AI Leveraging Large Language Models for Public Health Intervention* \[CHI 2023\] leads with the empirical question.  
+    * *$\color{red}{\textsf{Understanding}}$ the Impact of Long-Term Memory on Self-Disclosure with Large Language Model-Driven Chatbots for Public Health Intervention* \[CHI 2024\] does the same one project later, and names the exact mechanism it examined.
+
+3. **Spend the words of a title economically and keep redundancy to a minimum.** Every word should earn its place, so drop the ones another word already implies. Length itself is not the problem; a word that restates what its neighbor already says is.
+
+    * **Don’t:** $\color{red}{\textsf{Guidance}}$ through Social Narratives — guiding is by definition what a social narrative is for.  
+      **Don’t:** A Diary for $\color{red}{\textsf{Recording Daily Routines}}$ — a diary is already that.
+
+    * **Do:** *ChaCha: Leveraging Large Language Models to Prompt Children to Share Their Emotions about Personal Events* \[CHI 2024\] — a long title, but nothing in it is recoverable from anything else: the technology, the interaction, the population, and the content each appear exactly once.
+
+4. **Name the interactions the system supports, and let the terms scan.** Choose the nouns that foreground what people do with the system (e.g., $\color{red}{\textsf{exploration and reflection}}$). A pair that shares a suffix gives the title an internal rhyme and makes it easier to remember.
+
+    * *ExploreSelf: Fostering User-driven $\color{red}{\textsf{Exploration and Reflection}}$ on Personal Challenges with Adaptive Guidance by Large Language Models* \[CHI 2025\] — the shared *-tion* ending makes the pair scan and stick.  
+    * *DataHalo: A Customizable Notification Visualization System for $\color{red}{\textsf{Personalized and Longitudinal}}$ Interactions* \[CHI 2023\] — the same move with a shared *-al* ending, naming the two properties of the interaction that matter.  
+    * *AACessTalk: Fostering Communication between Minimally Verbal Autistic Children and Parents with $\color{red}{\textsf{Contextual Guidance and Card Recommendation}}$* \[CHI 2025\] — both mechanisms are named outright, so a reader knows what the system actually does before opening the paper.  
+    * *Autiverse: Eliciting Autistic Adolescents’ Daily Narratives through $\color{red}{\textsf{AI-guided Multimodal Journaling}}$* \[CHI 2026\] — a single compound carries the activity, the modality, and who guides it.  
+    * *ChaCha: Leveraging Large Language Models to $\color{red}{\textsf{Prompt Children to Share Their Emotions}}$ about Personal Events* \[CHI 2024\] — here the interaction is a verb phrase rather than a noun, which suits a system whose whole job is to elicit something.
+
 ## Synthesizing Related Work Sections
 
 1. **Rule of thumb:** The purpose of a related work section is to prepare readers to grasp the gist of your method, evaluation, and discussion, not to demonstrate your effort in reading a bunch of related papers.
@@ -262,13 +323,23 @@ Research questions should be…
 
 3. Every work has limitations. You **don’t have to be defensive** when reporting them.
 
+4. **Distinguish the future work that belongs in Limitations from the future work that belongs in the Discussion.** These are two different kinds of future work, and they live in different places. A “Limitations and Future Work” section takes only the work that follows from this study’s own limits — what still needs examining before the findings generalize, what a different sample or a longer deployment would settle. Future work that envisions where the field should go belongs in the Discussion’s own subsections, where it reads as ambition rather than as an apology. Placing a visionary direction next to your limitations makes it look like another shortcoming.
+
 ## What Should Come in a Discussion Section
 
 1. Rule of thumb 1: **Don’t introduce new information in the Discussion section**; everything you discuss should be grounded in the Results section.
 
 2. Rule of thumb 2: **Only discuss insights or predictions that directly emerged from the current study;** don’t discuss anything that could be said by someone who did not conduct the study.
 
-3. The first subsections should cover how your study answered the RQs.
+3. **The first subsections usually cover how your study answered the RQs.** Answering an RQ means stating the answer as a claim — what you now know — not replaying the results that produced it. Point back to the relevant findings, then spend the subsection on what they mean.
+
+4. **Make every subsection deliver a takeaway.** A subsection that merely summarizes the section it discusses leaves readers unsure what point you wanted to make. End each one with the insight its heading promised. Where the Results are dense but the Discussion thin, spend the space explaining *why* the differences appeared.
+
+5. **Keep the Results dry and factual, and let the Discussion carry interpretation, background, and future work.** Results wordiness usually comes from mixing in interpretation or background. Too much interpretation in the Results reliably draws a reviewer comment asking you to separate the two. A subsection whose job is interpreting results should not drift into future work either.
+
+6. **Reach beyond your data only when the literature licenses the leap.** Discuss only the implication your findings actually support; the same restraint applies to reassuring claims, such as arguing that the system is safe. To claim a longer-term effect you did not measure, first cite literature establishing your measure as a proxy for it.
+
+7. **Discuss where your findings diverge from prior work, your design rationale, or expert expectations.** Name the tension outright instead of leaving it unaddressed, and interpret any result that contradicts what your design or your domain experts assumed. Reporting a score on a standard instrument obliges you to compare with prior studies that used the same scale — do it before a reviewer does.
 
 # Checklist for Finalizing a Draft
 

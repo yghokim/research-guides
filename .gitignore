@@ -1,0 +1,9 @@
+# Slack-derived data must never be committed — it contains private channel
+# content, group-DM rosters, and participant information.
+channels-*.txt
+users-*.json
+slack-mining/
+slack_advice_*
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
