@@ -1,74 +1,64 @@
-# **Academic Writing Guide**
-
-**Young-Ho Kim**
-
-Leader, HCI Group @ NAVER AI Lab
-
-**Target readers?** Interns and junior researchers in our HCI group.
-
-**Why was this guide written?** The internship is super intensive, and you are already an experienced academic writer. You have developed your own writing style and file management conventions, which may conflict with those of your mentor. To better synchronize our writing styles and minimize mismatches across text written by different authors, I provide this guide.
-
 # General Writing Tips
 
 1. Avoid stating opinions as “We **think** A.” Instead, express your thoughts directly, or use more assertive words such as “insist” or “argue.”
 
 2. Avoid using adjectives like “**better**” and “**good**” without clarifying in which aspect. In most cases, you can avoid these words by directly describing which aspect was good or better, and at what: 
 
-   * **Don’t:** System A was $\color{red}{\textsf{better}}$ than System B.  
-     **Do:** System A yielded $\color{red}{\textsf{faster completion times and higher accuracy}}$ than System B.
+   * **Don’t:** System A was $\color{red}{\text{better}}$ than System B.  
+     **Do:** System A yielded $\color{red}{\text{faster completion times and higher accuracy}}$ than System B.
 
 3. Use **en dashes** (two hyphens \-- in LaTeX) properly when indicating a range. Students often mistakenly use a hyphen where an en dash belongs:
 
-   * **Don’t:** We recruited 13 participants $\color{red}{\textsf{(P1-13)}}$.  
-     **Do:** We recruited 13 participants $\color{red}{\textsf{(P1–13)}}$.
+   * **Don’t:** We recruited 13 participants $\color{red}{\text{(P1-13)}}$.  
+     **Do:** We recruited 13 participants $\color{red}{\text{(P1–13)}}$.
 
 4. Use en dashes for compound adjectives consisting of two nouns. Researchers often mistakenly use a hyphen to connect the two:
 
-   * **Don’t:** $\color{red}{\textsf{Human-computer}}$ interaction  
-     **Do:** $\color{red}{\textsf{Human–Computer}}$ Interaction
+   * **Don’t:** $\color{red}{\text{Human-computer}}$ interaction  
+     **Do:** $\color{red}{\text{Human–Computer}}$ Interaction
 
-   * **Don’t:** $\color{red}{\textsf{Parent-child}}$ communication
+   * **Don’t:** $\color{red}{\text{Parent-child}}$ communication
 
-   * **Do:** $\color{red}{\textsf{Parent–child}}$ communication
+   * **Do:** $\color{red}{\text{Parent–child}}$ communication
 
-5. For numbered lists, **always use Arabic numerals enclosed in parentheses on both sides**. For instance, use ‘$\color{red}{\textsf{(1)}}$’ instead of ‘1\)’ or ‘(i).’ Numbered lists with unclosed parentheses look incomplete.
+5. For numbered lists, **always use Arabic numerals enclosed in parentheses on both sides**. For instance, use ‘$\color{red}{\text{(1)}}$’ instead of ‘1\)’ or ‘(i).’ Numbered lists with unclosed parentheses look incomplete.
 
 6. Provide **objective** information whenever possible, especially when reporting **Results**. Provide **numbers** if you have them. Minimize the use of “some” and “many,” especially when you report the number of participants who mentioned something in the interviews.
 
-   * **Don’t**: $\color{red}{\textsf{Some}}$ participants reported that …  
-     **Do:** $\color{red}{\textsf{Five participants (P1, P4, P7, P18, P24)}}$ reported that…
+   * **Don’t**: $\color{red}{\text{Some}}$ participants reported that …  
+     **Do:** $\color{red}{\text{Five participants (P1, P4, P7, P18, P24)}}$ reported that…
 
-   * **Don’t**: $\color{red}{\textsf{Most}}$ participants reported that …  
-     **Do:** $\color{red}{\textsf{17 out of 20 (85\%)}}$ participants reported that…
+   * **Don’t**: $\color{red}{\text{Most}}$ participants reported that …  
+     **Do:** $\color{red}{\text{17 out of 20 (85\%)}}$ participants reported that…
 
 7. Distinguish between **citations as a backup for a claim** and **citations as an example**.
 
    * **Citation as a backup**: You are **citing a claim** made in the cited work to back up your own claim or a specific concept in your sentence. Put the citation directly after the part you want to back up, without parentheses.
 
-     * Similarly, parents play an essential role in supporting how children identify and express their emotions $\color{red}{\textsf{[10, 37]}}$.
+     * Similarly, parents play an essential role in supporting how children identify and express their emotions $\color{red}{\text{[10, 37]}}$.
 
-     * Studies demonstrated that when chatbots remember information across multiple sessions, such as users’ names or preferences, people perceive them as empathetic $\color{red}{\textsf{[29, 52, 63]}}$ and conscientious $\color{red}{\textsf{[8, 17]}}$.
+     * Studies demonstrated that when chatbots remember information across multiple sessions, such as users’ names or preferences, people perceive them as empathetic $\color{red}{\text{[29, 52, 63]}}$ and conscientious $\color{red}{\text{[8, 17]}}$.
 
    * **Citation as an example**: You are citing **the work itself as an example** of your claim. Wrap the citations in parentheses and prefix them with “*e.g.*”
 
-     * The recent advance of pre-trained LLMs $\color{red}{\textsf{(e.g.,}}$ GPT \[8, 61\], PaLM \[15\], LLaMA \[77\], LaMDA \[76\], HyperCLOVA \[46\]$\color{red}{\textsf{)}}$ has presented new opportunities for…
+     * The recent advance of pre-trained LLMs $\color{red}{\text{(e.g.,}}$ GPT \[8, 61\], PaLM \[15\], LLaMA \[77\], LaMDA \[76\], HyperCLOVA \[46\]$\color{red}{\text{)}}$ has presented new opportunities for…
 
-     * One common approach is to include summarized information of the conversation history instead of a raw knowledge base $\color{red}{\textsf{(e.g., [2, 41, 75])}}$. 
+     * One common approach is to include summarized information of the conversation history instead of a raw knowledge base $\color{red}{\text{(e.g., [2, 41, 75])}}$. 
 
 8. Clearly distinguish between **present** and **past** tenses in the main text.
 
    * Present tense: When you report **what you do in this paper**.
 
-     * To this aim, we $\color{red}{\textsf{propose}}$ …  
-     * In this work, we $\color{red}{\textsf{explore}}$ …  
-     * In this section, we $\color{red}{\textsf{describe}}$ …
+     * To this aim, we $\color{red}{\text{propose}}$ …  
+     * In this work, we $\color{red}{\text{explore}}$ …  
+     * In this section, we $\color{red}{\text{describe}}$ …
 
    * Past tense: When you report **what you or your participants did as part of the method**.
 
-     * We $\color{red}{\textsf{designed and developed}}$ MindfulDiary, …  
-     * We $\color{red}{\textsf{recruited}}$ 18 participants from …  
-     * We $\color{red}{\textsf{conducted}}$ an exploratory user study …  
-     * From the study, we $\color{red}{\textsf{observed}}$ that …
+     * We $\color{red}{\text{designed and developed}}$ MindfulDiary, …  
+     * We $\color{red}{\text{recruited}}$ 18 participants from …  
+     * We $\color{red}{\text{conducted}}$ an exploratory user study …  
+     * From the study, we $\color{red}{\text{observed}}$ that …
 
 9. ‘Related work’, ‘literature’, and ‘research’ are uncountable (mass) nouns. In most cases, they are conventionally used in the singular form. Grammatically, ‘related works’ is fine, but we seldom use that form.
 
@@ -76,89 +66,85 @@ Leader, HCI Group @ NAVER AI Lab
 
     * **Explore**: When the study is open-ended and aims to gain an initial understanding.
 
-      * *We $\color{red}{\textsf{explore}}$ the feasibility and challenges with older adults in collecting activity labels… \[MyMove, 2023\]*
+      * *We $\color{red}{\text{explore}}$ the feasibility and challenges with older adults in collecting activity labels… \[MyMove, 2023\]*
 
     * **Examine**: When the study is guided by a defined focus, clear research questions, or hypotheses.
 
-      * *Quant: To $\color{red}{\textsf{examine}}$ the effect of framing on individuals’ productivity, we compared two versions of TimeAware. \[TimeAware, 2016\]*
+      * *Quant: To $\color{red}{\text{examine}}$ the effect of framing on individuals’ productivity, we compared two versions of TimeAware. \[TimeAware, 2016\]*
 
-      * *Qual: Through an exploratory study with 19 participants, we $\color{red}{\textsf{examine}}$ how participants explore and reflect on personal challenges using ExploreSelf. \[ExploreSelf, 2025\]*
+      * *Qual: Through an exploratory study with 19 participants, we $\color{red}{\text{examine}}$ how participants explore and reflect on personal challenges using ExploreSelf. \[ExploreSelf, 2025\]*
 
     * **Investigate**: When the study seeks to uncover underlying mechanisms or causes that explain why a specific phenomenon occurs. But in practice, many HCI papers use this term interchangeably with ‘explore’ or ‘examine.’ 
 
-      *  *We $\color{red}{\textsf{investigate}}$ the factors that contributed to participants’ disengagement over time.*
+      *  *We $\color{red}{\text{investigate}}$ the factors that contributed to participants’ disengagement over time.*
 
     * **Assess**: When you are evaluating something, usually driven by quantitative metrics or measurements.
 
-      * *To $\color{red}{\textsf{assess}}$ the difference among the experimental conditions, we conducted Kruskal-Wallis tests over the four rating questions.* \[GPT-Chatbot, 2024\]
+      * *To $\color{red}{\text{assess}}$ the difference among the experimental conditions, we conducted Kruskal-Wallis tests over the four rating questions.* \[GPT-Chatbot, 2024\]
 
-      * *A set of call logs with 100 users (721 sessions) was classified using Positive-Neutral-Negative labels, designed to $\color{red}{\textsf{assess}}$ user satisfaction with conversational agents.* \[CareCall Long-term Memory, 2024\]
+      * *A set of call logs with 100 users (721 sessions) was classified using Positive-Neutral-Negative labels, designed to $\color{red}{\text{assess}}$ user satisfaction with conversational agents.* \[CareCall Long-term Memory, 2024\]
 
 11. Be aware of the **level of certainty** when you report the **interpretation** of the findings in an exploratory manner. Choose ***subjects*** and ***verbs*** appropriately:
 
     * **Low certainty**: When you strongly imply that the statement is mostly based on your interpretation or suspicion, with little or no data to back it up.
 
-      * We $\color{red}{\textsf{suspect}}$ that…
+      * We $\color{red}{\text{suspect}}$ that…
 
-      * Participants $\color{red}{\textsf{appeared to}}$… \=\> Usually when you interpret a pattern from the qualitative interviews.
+      * Participants $\color{red}{\text{appeared to}}$… \=\> Usually when you interpret a pattern from the qualitative interviews.
 
-      * These findings $\color{red}{\textsf{may reflect}}$…
+      * These findings $\color{red}{\text{may reflect}}$…
 
     * **Moderate certainty**: When the statement is still your interpretation, but you have some data points to back it up.
 
-      * The results $\color{red}{\textsf{suggest}}$ that… \=\> You can generally use this
+      * The results $\color{red}{\text{suggest}}$ that… \=\> You can generally use this
 
-      * The results $\color{red}{\textsf{indicate}}$ that… \=\> When the interpretation is more obvious than ‘suggest’
+      * The results $\color{red}{\text{indicate}}$ that… \=\> When the interpretation is more obvious than ‘suggest’
 
     * **High certainty**: Caution\! Use the following expressions only when they are justified by numerical outcomes or by very prevalent patterns of repeated observations:
 
-      * *The results $\color{red}{\textsf{show}}$ that participants’ self-efficacy increased significantly after the intervention.*
+      * *The results $\color{red}{\text{show}}$ that participants’ self-efficacy increased significantly after the intervention.*
 
-      * The results $\color{red}{\textsf{imply}}$ that… \=\> Stronger than it looks; use it only when the logical connection between the evidence and the conclusion is genuinely tight.
+      * The results $\color{red}{\text{imply}}$ that… \=\> Stronger than it looks; use it only when the logical connection between the evidence and the conclusion is genuinely tight.
 
-      * The findings $\color{red}{\textsf{demonstrate}}$ that…
+      * The findings $\color{red}{\text{demonstrate}}$ that…
 
 13. **Don’t use “say” to attribute what participants or prior authors stated.** It reads as colloquial. Use *remark*, *note*, *state*, *mention*, *stress*, *emphasize*, or *describe* instead, choosing the one whose force matches the strength of the statement, and don’t repeat the same verb across consecutive quotes.
 
-    * **Don’t:** P7 $\color{red}{\textsf{said}}$ “I stopped checking it after a week.”  
-      **Do:** P7 $\color{red}{\textsf{remarked,}}$ “I stopped checking it after a week.”
+    * **Don’t:** P7 $\color{red}{\text{said}}$ “I stopped checking it after a week.”  
+      **Do:** P7 $\color{red}{\text{remarked,}}$ “I stopped checking it after a week.”
 
 14. **Minimize be-verbs** and recast those sentences around a precise action verb. Plain “A is B” sentences read as flat to English readers and make the prose look unpolished.
 
-    * **Don’t:** The main reason for the disengagement $\color{red}{\textsf{was}}$ the lack of feedback.  
-      **Do:** The lack of feedback $\color{red}{\textsf{drove}}$ the disengagement.
+    * **Don’t:** The main reason for the disengagement $\color{red}{\text{was}}$ the lack of feedback.  
+      **Do:** The lack of feedback $\color{red}{\text{drove}}$ the disengagement.
 
 15. **When a sentence opens with “this” pointing back at the previous sentence, ask whether “this + noun” would say it better.** A bare “this” leaves readers to reconstruct the referent themselves, and after a long or quote-heavy sentence they often reconstruct the wrong one. Naming the referent costs one word, and the noun you choose usually does interpretive work at the same time — it tells readers what *kind* of thing the previous sentence established.
 
-    * *$\color{red}{\textsf{This growing clarity}}$ allowed P13 to “confidently decide when to explore a theme more deeply and when to move on to a new one”…* \[ExploreSelf, CHI 2025\]  
-    * *$\color{red}{\textsf{This meticulous process}}$ highlights the challenge of aligning signs with the music, a task that demands significant time and effort.* \[ELMI, CHI 2025\]  
-    * *$\color{red}{\textsf{This gap}}$ is consequential because the unique characteristics of autistic adolescents pose barriers to practice journaling themselves…* \[Autiverse, CHI 2026\]  
-    * *$\color{red}{\textsf{This procedure}}$ was implemented to ensure active monitoring and communication.* \[MindfulDiary, CHI 2024\]
+    * *$\color{red}{\text{This growing clarity}}$ allowed P13 to “confidently decide when to explore a theme more deeply and when to move on to a new one”…* \[ExploreSelf, CHI 2025\]  
+    * *$\color{red}{\text{This meticulous process}}$ highlights the challenge of aligning signs with the music, a task that demands significant time and effort.* \[ELMI, CHI 2025\]  
+    * *$\color{red}{\text{This gap}}$ is consequential because the unique characteristics of autistic adolescents pose barriers to practice journaling themselves…* \[Autiverse, CHI 2026\]  
+    * *$\color{red}{\text{This procedure}}$ was implemented to ensure active monitoring and communication.* \[MindfulDiary, CHI 2024\]
 
 16. **Tone down absolute and extreme words.** Strong words like *imperfect*, *useless*, and *blind* make the message look aggressive rather than strong. To make a point forcefully, unpack the precise intent in softer wording instead of reaching for the harsh term.
 
-    * **Don’t:** The existing approach is $\color{red}{\textsf{useless}}$ for this population.  
-      **Do:** The existing approach $\color{red}{\textsf{offers little support}}$ for this population.
+    * **Don’t:** The existing approach is $\color{red}{\text{useless}}$ for this population.  
+      **Do:** The existing approach $\color{red}{\text{offers little support}}$ for this population.
 
-17. **Check whether a paragraph’s wrap-up sentence is redundant with what comes before it.** Closing every paragraph with $\color{red}{\textsf{Taken together}}$…, $\color{red}{\textsf{Together}}$…, or $\color{red}{\textsf{This suggests}}$... leaves the point stated twice — once at the top of the paragraph and again at the bottom. Put the point in one place. A summarizing sentence at the end of a **section/subsection** is fine.
+17. **Check whether a paragraph’s wrap-up sentence is redundant with what comes before it.** Closing every paragraph with $\color{red}{\text{Taken together}}$…, $\color{red}{\text{Together}}$…, or $\color{red}{\text{This suggests}}$... leaves the point stated twice — once at the top of the paragraph and again at the bottom. Put the point in one place. A summarizing sentence at the end of a **section/subsection** is fine.
 
 18. Call a scale a **Likert scale** only when it measures the *degree of agreement* (*Strongly agree*–*Strongly disagree*). For a frequency or any other non-agreement scale, say **rating scale**, or simply name the **categories** the participant chose among.
 
-    * **Don’t:** We measured frequency of use on a five-point $\color{red}{\textsf{Likert scale}}$.  
-      **Do:** We measured frequency of use on a five-point $\color{red}{\textsf{rating scale}}$.  
-      **Do:** Participants chose among $\color{red}{\textsf{five frequency categories}}$, from *Never* to *Every day*.
+    * **Don’t:** We measured frequency of use on a five-point $\color{red}{\text{Likert scale}}$.  
+      **Do:** We measured frequency of use on a five-point $\color{red}{\text{rating scale}}$.  
+      **Do:** Participants chose among $\color{red}{\text{five frequency categories}}$, from *Never* to *Every day*.
 
 19. **Try to make each findings section header state the finding itself rather than the topic it covers.** A header that conveys ‘which aspect of what’ — the message the data support — carries more than a bare topic label or a UI feature name. The payoff is cumulative: when every header states a message, a reader who skims only the headers still follows the key messages of your findings, and that is how many reviewers first read a paper.
 
-    * **Don’t:** $\color{red}{\textsf{Use of the Reflection Panel}}$  
-      **Do:** $\color{red}{\textsf{Reflection surfaced overlooked patterns}}$
+    * **Don’t:** $\color{red}{\text{Use of the Reflection Panel}}$  
+      **Do:** $\color{red}{\text{Reflection surfaced overlooked patterns}}$
 
 20. **Avoid orphaned figures and tables.** Every figure and every table must be referred to at least once in the main text; a float nobody cites is orphaned.
 
-
-# LaTeX Convention
-
-Moved to a separate document: [LaTeX Convention](./latex_convention.md) — Overleaf project management and LaTeX writing guides.
 
 # Formulating Research Questions
 
@@ -182,28 +168,28 @@ Research questions should be…
 
 1. **Calibrate the ambition of the title to the evidence the paper can show.** A title keyword is what reviewers fixate on. If the title promises an outcome you did not measure, you will be judged on exactly that. Pin down the scope of what you claim to promote in a “Promoting XXX through …” title before fixing it, because that XXX defines what you must evaluate. Conversely, when the results came out strongly significant, let the title be correspondingly ambitious.
 
-    *MyMove: $\color{red}{\textsf{Facilitating}}$ Older Adults to Collect In-Situ Activity Labels on a Smartwatch with Speech* \[CHI 2022\] commits you to showing that the labeling task got easier, while *TimeAware: Leveraging Framing Effects to $\color{red}{\textsf{Enhance}}$ Personal Productivity* \[CHI 2016\] commits you to showing that productivity actually improved. Pick the verb whose bar your study clears.
+    *MyMove: $\color{red}{\text{Facilitating}}$ Older Adults to Collect In-Situ Activity Labels on a Smartwatch with Speech* \[CHI 2022\] commits you to showing that the labeling task got easier, while *TimeAware: Leveraging Framing Effects to $\color{red}{\text{Enhance}}$ Personal Productivity* \[CHI 2016\] commits you to showing that productivity actually improved. Pick the verb whose bar your study clears.
 
-2. **Choose the leading verb to match the kind of contribution you are claiming.** “$\color{red}{\textsf{Supporting}}$ X” puts the weight on the artifact, while “$\color{red}{\textsf{Understanding How}}$ …” claims the empirical contribution — pick the one the paper actually delivers. Be aware that “Supporting X” is also generic: beyond naming the target user it carries almost no information, so it is rarely the strongest frame. Check number agreement across the title’s nouns as well: if *models* is plural, *assistants* should be too.
+2. **Choose the leading verb to match the kind of contribution you are claiming.** “$\color{red}{\text{Supporting}}$ X” puts the weight on the artifact, while “$\color{red}{\text{Understanding How}}$ …” claims the empirical contribution — pick the one the paper actually delivers. Be aware that “Supporting X” is also generic: beyond naming the target user it carries almost no information, so it is rarely the strongest frame. Check number agreement across the title’s nouns as well: if *models* is plural, *assistants* should be too.
 
     * *ELMI: Interactive and Intelligent Sign Language Translation of Lyrics for Song Signing* \[CHI 2025\] leads with the artifact.  
-    * *$\color{red}{\textsf{Understanding}}$ the Benefits and Challenges of Deploying Conversational AI Leveraging Large Language Models for Public Health Intervention* \[CHI 2023\] leads with the empirical question.  
-    * *$\color{red}{\textsf{Understanding}}$ the Impact of Long-Term Memory on Self-Disclosure with Large Language Model-Driven Chatbots for Public Health Intervention* \[CHI 2024\] does the same one project later, and names the exact mechanism it examined.
+    * *$\color{red}{\text{Understanding}}$ the Benefits and Challenges of Deploying Conversational AI Leveraging Large Language Models for Public Health Intervention* \[CHI 2023\] leads with the empirical question.  
+    * *$\color{red}{\text{Understanding}}$ the Impact of Long-Term Memory on Self-Disclosure with Large Language Model-Driven Chatbots for Public Health Intervention* \[CHI 2024\] does the same one project later, and names the exact mechanism it examined.
 
 3. **Spend the words of a title economically and keep redundancy to a minimum.** Every word should earn its place, so drop the ones another word already implies. Length itself is not the problem; a word that restates what its neighbor already says is.
 
-    * **Don’t:** $\color{red}{\textsf{Guidance}}$ through Social Narratives — guiding is by definition what a social narrative is for.  
-      **Don’t:** A Diary for $\color{red}{\textsf{Recording Daily Routines}}$ — a diary is already that.
+    * **Don’t:** $\color{red}{\text{Guidance}}$ through Social Narratives — guiding is by definition what a social narrative is for.  
+      **Don’t:** A Diary for $\color{red}{\text{Recording Daily Routines}}$ — a diary is already that.
 
     * **Do:** *ChaCha: Leveraging Large Language Models to Prompt Children to Share Their Emotions about Personal Events* \[CHI 2024\] — a long title, but nothing in it is recoverable from anything else: the technology, the interaction, the population, and the content each appear exactly once.
 
-4. **Name the interactions the system supports, and let the terms scan.** Choose the nouns that foreground what people do with the system (e.g., $\color{red}{\textsf{exploration and reflection}}$). A pair that shares a suffix gives the title an internal rhyme and makes it easier to remember.
+4. **Name the interactions the system supports, and let the terms scan.** Choose the nouns that foreground what people do with the system (e.g., $\color{red}{\text{exploration and reflection}}$). A pair that shares a suffix gives the title an internal rhyme and makes it easier to remember.
 
-    * *ExploreSelf: Fostering User-driven $\color{red}{\textsf{Exploration and Reflection}}$ on Personal Challenges with Adaptive Guidance by Large Language Models* \[CHI 2025\] — the shared *-tion* ending makes the pair scan and stick.  
-    * *DataHalo: A Customizable Notification Visualization System for $\color{red}{\textsf{Personalized and Longitudinal}}$ Interactions* \[CHI 2023\] — the same move with a shared *-al* ending, naming the two properties of the interaction that matter.  
-    * *AACessTalk: Fostering Communication between Minimally Verbal Autistic Children and Parents with $\color{red}{\textsf{Contextual Guidance and Card Recommendation}}$* \[CHI 2025\] — both mechanisms are named outright, so a reader knows what the system actually does before opening the paper.  
-    * *Autiverse: Eliciting Autistic Adolescents’ Daily Narratives through $\color{red}{\textsf{AI-guided Multimodal Journaling}}$* \[CHI 2026\] — a single compound carries the activity, the modality, and who guides it.  
-    * *ChaCha: Leveraging Large Language Models to $\color{red}{\textsf{Prompt Children to Share Their Emotions}}$ about Personal Events* \[CHI 2024\] — here the interaction is a verb phrase rather than a noun, which suits a system whose whole job is to elicit something.
+    * *ExploreSelf: Fostering User-driven $\color{red}{\text{Exploration and Reflection}}$ on Personal Challenges with Adaptive Guidance by Large Language Models* \[CHI 2025\] — the shared *-tion* ending makes the pair scan and stick.  
+    * *DataHalo: A Customizable Notification Visualization System for $\color{red}{\text{Personalized and Longitudinal}}$ Interactions* \[CHI 2023\] — the same move with a shared *-al* ending, naming the two properties of the interaction that matter.  
+    * *AACessTalk: Fostering Communication between Minimally Verbal Autistic Children and Parents with $\color{red}{\text{Contextual Guidance and Card Recommendation}}$* \[CHI 2025\] — both mechanisms are named outright, so a reader knows what the system actually does before opening the paper.  
+    * *Autiverse: Eliciting Autistic Adolescents’ Daily Narratives through $\color{red}{\text{AI-guided Multimodal Journaling}}$* \[CHI 2026\] — a single compound carries the activity, the modality, and who guides it.  
+    * *ChaCha: Leveraging Large Language Models to $\color{red}{\text{Prompt Children to Share Their Emotions}}$ about Personal Events* \[CHI 2024\] — here the interaction is a verb phrase rather than a noun, which suits a system whose whole job is to elicit something.
 
 ## Synthesizing Related Work Sections
 
@@ -257,13 +243,13 @@ Congratulations on getting a submittable version of the paper. If you have time 
 
 2. Check the consistency of conventions for words, phrases, and terms. Inconsistencies arise when multiple authors have edited the text and you have not had a chance to review it thoroughly. Here are some common phrases that different authors may use differently. The red text indicates my preference:
 
-   1. ‘users’ vs ‘$\color{red}{\textsf{people}}$’
+   1. ‘users’ vs ‘$\color{red}{\text{people}}$’
 
-   2. ‘$\color{red}{\textsf{et al.}}$’ vs ‘and colleagues’
+   2. ‘$\color{red}{\text{et al.}}$’ vs ‘and colleagues’
 
-   3. $\color{red}{\textsf{American English}}$ vs British English (and sometimes vs Konglish…)
+   3. $\color{red}{\text{American English}}$ vs British English (and sometimes vs Konglish…)
 
-   4. Present tense vs $\color{red}{\textsf{past tense}}$ for stating what we’ve done (But NLP venues conventionally use the present tense)
+   4. Present tense vs $\color{red}{\text{past tense}}$ for stating what we’ve done (But NLP venues conventionally use the present tense)
 
 3. Check the consistency of wording between the **figure/table captions** and the **main text**.
 
@@ -287,7 +273,7 @@ Congratulations on getting a submittable version of the paper. If you have time 
 
 8. Be consistent with the capitalization of paper titles. **I recommend capitalizing all words**, regardless of how the paper was published.
 
-9. Be consistent with the convention for **the authors’ middle names**—that is, whether to include a period: e.g., Daniel $\color{red}{\textsf{A}}$ Epstein vs. Daniel $\color{red}{\textsf{A.}}$ Epstein.
+9. Be consistent with the convention for **the authors’ middle names**—that is, whether to include a period: e.g., Daniel $\color{red}{\text{A}}$ Epstein vs. Daniel $\color{red}{\text{A.}}$ Epstein.
 
 10. For arXiv papers, check whether an accepted version exists, especially for papers in ML and AI venues. For the camera-ready version, check again whether any of the arXiv papers have since been accepted at a venue.
 
