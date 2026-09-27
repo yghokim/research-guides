@@ -146,22 +146,6 @@
 20. **Avoid orphaned figures and tables.** Every figure and every table must be referred to at least once in the main text; a float nobody cites is orphaned.
 
 
-# Formulating Research Questions
-
-## Qualities of RQs
-
-Research questions should be…
-
-1. **Novel**: Your questions shouldn’t have been answered elsewhere.
-
-2. **Feasible**: You should be able to answer your questions. Consider the time budget, your expertise, and any other constraints on executing the method.
-
-3. **Challenging**: You should be tackling sufficiently challenging questions. By answering them, you should make a significant contribution to HCI.
-
-4. **Specific**: Be candid about the level of detail you can address. Avoid both overclaiming (i.e., phrasing your questions too generally) and underclaiming (i.e., phrasing them so that they cover only part of what you actually contribute).
-
-## RQs vs. Research Goals/Aims
-
 # Resources
 
 ## Books on Writing 

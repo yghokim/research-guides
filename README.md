@@ -20,11 +20,12 @@ NAVER AI의 연구 인턴십은 짧은 기간 동안 매우 집약적으로 진�
 ## Guides
 
 * [Academic Writing Guide](./advice_on_academic_writing.md) — general writing
-  tips, formulating research questions, and recommended resources.
+  tips and recommended resources.
 * [Advice on Writing Paper Contents](./advice_on_writing_paper_contents.md) —
-  writing the title, synthesizing related work, discussing limitations and future
-  work, and what belongs in a discussion section, originally a section of the
-  Academic Writing Guide and split out as a standalone reference.
+  formulating research questions, writing the title, synthesizing related work,
+  discussing limitations and future work, and what belongs in a discussion
+  section, originally sections of the Academic Writing Guide and split out as a
+  standalone reference.
 * [LaTeX Convention](./latex_convention.md) — Overleaf project management and
   LaTeX writing conventions, originally a section of the Academic Writing Guide
   and split out as a standalone reference.

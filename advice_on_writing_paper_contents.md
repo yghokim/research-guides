@@ -1,5 +1,21 @@
 # **Advice on Writing Paper Contents**
 
+## Formulating Research Questions
+
+### Qualities of RQs
+
+Research questions should be…
+
+1. **Novel**: Your questions shouldn’t have been answered elsewhere.
+
+2. **Feasible**: You should be able to answer your questions. Consider the time budget, your expertise, and any other constraints on executing the method.
+
+3. **Challenging**: You should be tackling sufficiently challenging questions. By answering them, you should make a significant contribution to HCI.
+
+4. **Specific**: Be candid about the level of detail you can address. Avoid both overclaiming (i.e., phrasing your questions too generally) and underclaiming (i.e., phrasing them so that they cover only part of what you actually contribute).
+
+### RQs vs. Research Goals/Aims
+
 ## Writing the Title
 
 1. **Calibrate the ambition of the title to the evidence the paper can show.** A title keyword is what reviewers fixate on. If the title promises an outcome you did not measure, you will be judged on exactly that. Pin down the scope of what you claim to promote in a “Promoting XXX through …” title before fixing it, because that XXX defines what you must evaluate. Conversely, when the results came out strongly significant, let the title be correspondingly ambitious.
