@@ -233,8 +233,6 @@ Research questions should be…
 
 7. **Discuss where your findings diverge from prior work, your design rationale, or expert expectations.** Name the tension outright instead of leaving it unaddressed, and interpret any result that contradicts what your design or your domain experts assumed. Reporting a score on a standard instrument obliges you to compare with prior studies that used the same scale — do it before a reviewer does.
 
-# 
-
 # Resources
 
 ## Books on Writing 
