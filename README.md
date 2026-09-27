@@ -20,10 +20,14 @@ NAVER AI의 연구 인턴십은 짧은 기간 동안 매우 집약적으로 진�
 ## Guides
 
 * [Academic Writing Guide](./advice_on_academic_writing.md) — general writing
-  tips, formulating research questions, advice on writing each part of a paper, a
-  checklist for finalizing a draft, and recommended resources.
+  tips, formulating research questions, advice on writing each part of a paper,
+  and recommended resources.
 * [LaTeX Convention](./latex_convention.md) — Overleaf project management and
   LaTeX writing conventions, originally a section of the Academic Writing Guide
   and split out as a standalone reference.
+* [Checklist for Finalizing a Draft](./checklist_for_finalizing_a_draft.md) — the
+  final pass over the whole manuscript, section headers, tables, references, and
+  acknowledgements, originally a section of the Academic Writing Guide and split
+  out as a standalone reference.
 
 ---
