@@ -32,7 +32,7 @@ Most papers declare their intent in the Introduction as an **aim** — *“In th
    * *In this study, we therefore $\color{red}{\text{seek to understand}}$ the utility of LTM for public health monitoring, with particular attention to self-disclosure.* \[CareCall-LTM, CHI 2024, Introduction\]
    * *Through a two-week deployment study with 10 autistic adolescent-parent dyads, we $\color{red}{\text{examine}}$ how Autiverse supports autistic adolescents to organize their daily experience and emotion.* \[Autiverse, CHI 2026, Abstract\]
 
-4. **“How can we design…” is an aim, not a research question.** No data answer it, so leave it declarative; if you want a question, ask what the study can settle.
+4. **Design intent reads better as an aim than as a research question.** A question like *“How can we design a system that…?”* is answered by the design decisions you make, so the Findings have little to offer in response. The questions are better saved for what the study observes.
 
    * *In this work, we $\color{red}{\text{aim to design}}$ a system that supports translation of song lyrics and gloss creation for song-signing in a more accessible manner.* \[ELMI, CHI 2025, Introduction\]
    * *With this LLM-driven chatbot, we aim to answer the following research question: $\color{red}{\text{How feasible is}}$ an LLM-driven chatbot in prompting children to share their emotions about personal events?* \[ChaCha, CHI 2024, Introduction\]
