@@ -19,17 +19,17 @@ NAVER AI의 연구 인턴십은 짧은 기간 동안 매우 집약적으로 진�
 
 ## Guides
 
-* [Academic Writing Guide](./advice_on_academic_writing.md) — general writing
+* [Academic Writing Guide](./guides/advice_on_academic_writing.md) — general writing
   tips and recommended resources.
-* [Advice on Writing Paper Contents](./advice_on_writing_paper_contents.md) —
+* [Advice on Writing Paper Contents](./guides/advice_on_writing_paper_contents.md) —
   formulating research questions, writing the title, synthesizing related work,
   discussing limitations and future work, and what belongs in a discussion
   section, originally sections of the Academic Writing Guide and split out as a
   standalone reference.
-* [LaTeX Convention](./latex_convention.md) — Overleaf project management and
+* [LaTeX Convention](./guides/latex_convention.md) — Overleaf project management and
   LaTeX writing conventions, originally a section of the Academic Writing Guide
   and split out as a standalone reference.
-* [Checklist for Finalizing a Draft](./checklist_for_finalizing_a_draft.md) — the
+* [Checklist for Finalizing a Draft](./guides/checklist_for_finalizing_a_draft.md) — the
   final pass over the whole manuscript, section headers, tables, references, and
   acknowledgements, originally a section of the Academic Writing Guide and split
   out as a standalone reference.
