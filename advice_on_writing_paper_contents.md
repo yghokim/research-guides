@@ -16,6 +16,35 @@ Research questions should be…
 
 ### RQs vs. Research Goals/Aims
 
+Most papers declare their intent in the Introduction as an **aim** — *“In this work, we aim to…,” “we investigate…”* — and some additionally pose **research questions** that a specific study answers. Every project should establish its research questions internally; what follows concerns which of the two the paper states explicitly.
+
+1. **Not every paper needs to explicitly state its research questions.** Define them during the research process — they are how you and your coauthors establish what the study addresses. Whether to state them in the paper is a separate decision: most of our group’s papers state only an aim, and present RQs only where a study is designed to answer them one by one.
+
+2. **The aim covers the paper; an RQ belongs to a study.** *LingoQ* \[CHI 2026\] states both in the Introduction, but scopes them differently:
+
+   * Aim: *Building on these insights, we $\color{red}{\text{investigate whether}}$ generating study materials of mobile language learning apps directly from work tasks can further enhance language learning and foster long-term engagement.* \[Introduction\]
+   * RQs: *Through the $\color{red}{\text{deployment study}}$, with a focus on feasibility, we explore the following research questions: RQ1–How do EFL workers engage in and sustain their English learning when using study materials generated from their work context? RQ2–How does studying English with work-related content influence workers’ learning outcomes and self-efficacy? and RQ3–How do EFL workers perceive the value of studying English with questions generated from work-related content?* \[Introduction\]
+
+3. **Pick the verb in the aim to match what the study can settle.** Reviewers hold the Findings to it; see the verb-choice item in the [Academic Writing Guide](./advice_on_academic_writing.md).
+
+   * *To understand the benefits and challenges of deploying conversational AI leveraging LLMs for public health, we $\color{red}{\text{explore}}$ the case of CLOVA CareCall…* \[CareCall, CHI 2023, Introduction\]
+   * *In this work, we $\color{red}{\text{investigate}}$ ways to empower individuals to take greater control of the reflective process of their personal challenges…* \[ExploreSelf, CHI 2025, Introduction\]
+   * *In this study, we therefore $\color{red}{\text{seek to understand}}$ the utility of LTM for public health monitoring, with particular attention to self-disclosure.* \[CareCall-LTM, CHI 2024, Introduction\]
+   * *Through a two-week deployment study with 10 autistic adolescent-parent dyads, we $\color{red}{\text{examine}}$ how Autiverse supports autistic adolescents to organize their daily experience and emotion.* \[Autiverse, CHI 2026, Abstract\]
+
+4. **“How can we design…” is an aim, not a research question.** No data answer it, so leave it declarative; if you want a question, ask what the study can settle.
+
+   * *In this work, we $\color{red}{\text{aim to design}}$ a system that supports translation of song lyrics and gloss creation for song-signing in a more accessible manner.* \[ELMI, CHI 2025, Introduction\]
+   * *With this LLM-driven chatbot, we aim to answer the following research question: $\color{red}{\text{How feasible is}}$ an LLM-driven chatbot in prompting children to share their emotions about personal events?* \[ChaCha, CHI 2024, Introduction\]
+
+5. **A numbered RQ owes the reader an explicit answer in the Findings.** One subsection per question, numbering mirrored. Keep them few and comparable in scope — if one question takes half the paper and another a paragraph, they are not siblings. An aim is discharged differently: by the contributions as a whole.
+
+6. **In a multi-study paper, state one aim in the Introduction and open each study with its own.** *ExploreSelf* \[CHI 2025\]:
+
+   * *In this work, we investigate ways to empower individuals to take greater control of the reflective process of their personal challenges…* \[Introduction\]
+   * *…our goal was to design a system that enables individuals to explore their challenges at their own pace, without clinical oversight.* \[Introduction\]
+   * *we aimed to gain a nuanced understanding of the challenges of providing effective guidance…* \[Formative Interviews\]
+
 ## Writing the Title
 
 1. **Calibrate the ambition of the title to the evidence the paper can show.** A title keyword is what reviewers fixate on. If the title promises an outcome you did not measure, you will be judged on exactly that. Pin down the scope of what you claim to promote in a “Promoting XXX through …” title before fixing it, because that XXX defines what you must evaluate. Conversely, when the results came out strongly significant, let the title be correspondingly ambitious.
